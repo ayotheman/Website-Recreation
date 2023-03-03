@@ -57,7 +57,7 @@ nav img{
     text-align: center;
 }
 .text-box h1{
-    font-size: 62px;
+    font-size: 5px !important;
 }
 .text-box p{
     margin: 10px 0 40px;
@@ -85,17 +85,18 @@ nav .fa{
     display: none;
 }
 
-@media(max-width: 700px){
+
+/* @media(max-width: 700px){
     .text-box h1{
         font-size: 20px;
-    }
+    }*/ 
     .nav-links ul li{
         display: block;
     }
     .nav-links{
         position: fixed;
         background: #f44336;
-        height: 91vh;
+        height: 91vw;
         width: 200px;
         top: 0;
         right: -260px;
@@ -113,8 +114,6 @@ nav .fa{
     .nav-links{
         padding: 30px;
     }
-    
-}
 
 /*------ course ------*/
 
@@ -125,7 +124,7 @@ nav .fa{
     padding-top: 100px;
 }
 h1{
-    font-size:36px;
+    font-size: 6px !important;
     font-weight: 600;
 }
 

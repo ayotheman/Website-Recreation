@@ -283,7 +283,6 @@ h3{
     cursor: pointer;
     padding: 18px 0; 
     width: 1.5%;
-    filter: grayscale(100%);
 }
 .heart img{
     width: 1%;
@@ -478,8 +477,8 @@ h3{
     
     .nav-links {
             position: fixed;
-            background: #cd8833;
-            height: 100vh;
+            background: #102a4a;
+            height: 50vh;
             width: 300px;
             top: 0;
             right: -460px;
